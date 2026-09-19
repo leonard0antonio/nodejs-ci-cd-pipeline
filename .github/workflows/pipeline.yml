@@ -45,8 +45,8 @@ jobs:
           PORT: 3000
 
       - name: DAST - OWASP ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.12.0
+        uses: zaproxy/action-baseline@v0.15.0
         with:
           target: 'http://localhost:3000'
-          
+          artifact_name: 'zap-scan-report'
           token: ${{ secrets.GITHUB_TOKEN }}
