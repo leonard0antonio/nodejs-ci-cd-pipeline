@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: SAST - Semgrep Code Scan
-        uses: semgrep/action@v1
+        uses: semgrep/semgrep-action@v1
         with:
           config: "p/default"
           
