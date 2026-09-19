@@ -9,7 +9,11 @@ on:
 jobs:
   build-and-security:
     runs-on: ubuntu-latest
-
+    
+    permissions:
+      contents: read
+      security-events: write
+      
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
