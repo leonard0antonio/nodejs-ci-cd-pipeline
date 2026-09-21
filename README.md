@@ -2,6 +2,8 @@
 
 Projeto Node.js utilizado para demonstrar uma pipeline de CI/CD, agora com integração de práticas DevSecOps através do GitHub Actions.
 
+![Demo da aplicação](demo.jpg)
+
 ## Requisitos
 
 * Node.js
